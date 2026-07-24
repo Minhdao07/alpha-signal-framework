@@ -1,0 +1,13 @@
+# Core numerical / data stack
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0        # PCA neutralization mode
+
+# Notebook runtime (the project ships as .ipynb notebooks)
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+nbformat>=5.0.0
+nbclient>=0.8.0            # headless execution: jupyter nbconvert --execute

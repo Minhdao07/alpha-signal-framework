@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+.vscode/
+
+# Local tooling / agent config (never publish)
+.claude/
+
+# Personal CV / interview prep — deliberately not part of the public repo
+HANDOFF_*.md
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
